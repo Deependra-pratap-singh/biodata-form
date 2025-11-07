@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <table border ="10px">
+        <thead>
+            <tr>
+                <th>SR.no</th>
+                <th>Country</th>
+                <th>Area</th>
+                <th>Capital</th>
+                <th>Image</th>
+            </tr>
+          
+        </thead>
+     
+     <tr>
+        <td>1</td>
+        <td>China</td>
+        <td>9,596,961 km²</td>
+        <td>Beijing</td>
+        <td><img src="data:image/jpeg;base64,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"  width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>2</td>
+        <td>India</td>
+        <td>3,287,263 km²</td>
+        <td>New Delhi</td>
+        <td><img src="data:image/jpeg;base64,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"  width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>3</td>
+        <td>United States</td>
+        <td>9,525,067 km²</td>
+        <td>Washington, D.C.</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ_RYkw599wlDLWcC39A9ubASMQUO2gieG2g&s"  width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>4</td>
+        <td>Indonesia</td>
+        <td>1,904,569 km²</td>
+        <td>Jakarta</td>
+        <td><img src="https://media.gettyimages.com/id/500798563/photo/city-skyline-at-sunset-jakarta-indonesia.jpg?s=612x612&w=gi&k=20&c=lMoY5gvQOmITAXgotLfxvCp5Iz594W6By6s-8guwNOw="  width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>5</td>
+        <td>Pakistan</td>
+        <td>881,913 km²</td>
+        <td>Islamabad</td>
+        <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Minar-e-Pakistan-lhr.jpg"  width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>6</td>
+        <td>Brazil</td>
+        <td>8,515,767 km²</td>
+        <td>Brasília</td>
+        <td><img src="https://static.toiimg.com/photo/msid-36295937,width-96,height-65.cms" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>7</td>
+        <td>Nigeria</td>
+        <td>923,768 km²</td>
+        <td>Abuja</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ12HQjDkF2ZtGwVi7EhU3yumbGb6TuDb1WtQ&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>8</td>
+        <td>Bangladesh</td>
+        <td>147,570 km²</td>
+        <td>Dhaka</td>
+        <td><img src="https://media.istockphoto.com/id/1218494508/photo/bangladesh-in-virtual-lockdown-as-coronavirus-fight-flares.jpg?s=612x612&w=0&k=20&c=LedXzQ07vu3eqxMl4zIiP7cHs9tJLCfl-9HuTLq1fq0=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>9</td>
+        <td>Russia</td>
+        <td>17,098,242 km²</td>
+        <td>Moscow</td>
+        <td><img src="https://plus.unsplash.com/premium_photo-1661964173407-af6b43f880df?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cnVzc2lhfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>10</td>
+        <td>Mexico</td>
+        <td>1,964,375 km²</td>
+        <td>Mexico City</td>
+        <td><img src="https://media.istockphoto.com/id/1064307584/photo/independence-monument-mexico-city.jpg?s=1024x1024&w=is&k=20&c=bTIn5B36MxmsHkCn_prl72sGj005fstt4SaKJmucYOo=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>11</td>
+        <td>Japan</td>
+        <td>377,975 km²</td>
+        <td>Tokyo</td>
+        <td><img src="https://media.istockphoto.com/id/876560704/photo/fuji-japan-in-spring.jpg?s=612x612&w=0&k=20&c=j1VZlzfNcsjQ4q4yHXJEohSrBZJf6nUhh2_smM4eioQ=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>12</td>
+        <td>Ethiopia</td>
+        <td>1,104,300 km²</td>
+        <td>Addis Ababa</td>
+        <td><img src="https://media.gettyimages.com/id/521728496/photo/addis-ababa-cityscape.jpg?s=612x612&w=gi&k=20&c=QLDgseq7QdNTGL2jQyJcxOcWQDi3H4Rj3WOxWSG65I4=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>13</td>
+        <td>Philippines</td>
+        <td>300,000 km²</td>
+        <td>Manila</td>
+        <td><img src="https://media.gettyimages.com/id/904288674/photo/manila-makati-at-twilight.jpg?s=612x612&w=gi&k=20&c=3aB05CPdXCGRTT6WCKpoScS3MVHwS9x00vCmxvIEROw=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>14</td>
+        <td>Egypt</td>
+        <td>1,001,450 km²</td>
+        <td>Cairo</td>
+        <td><img src="https://media.istockphoto.com/id/1464998966/photo/beautiful-nile-scenery-with-sailboat-in-the-nile-on-the-way-to-pyramids-aswan-egypt.jpg?s=612x612&w=0&k=20&c=0tkAT1gmoFt_2QqSk4LqPzTb-b7T00921ddR5KzUcIg=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>15</td>
+        <td>Vietnam</td>
+        <td>331,212 km²</td>
+        <td>Hanoi</td>
+      <td><img src="https://media.istockphoto.com/id/1207829943/photo/trang-an-landscape-complex.jpg?s=612x612&w=0&k=20&c=WR8w8gheaPLUVl0OuVglR9ejlMqdRytLEr8hmzOajo8=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>16</td>
+        <td>DR Congo</td>
+        <td>2,344,858 km²</td>
+        <td>Kinshasa</td>
+        <td><img src="https://www.shutterstock.com/image-photo/city-lubumbashi-democratic-republic-congo-600nw-2262409797.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>17</td>
+        <td>Turkey</td>
+        <td>783,356 km²</td>
+        <td>Ankara</td>
+        <td><img src="https://media.gettyimages.com/id/656642008/photo/aerial-view-of-istanbul-lit-up-at-night.jpg?s=612x612&w=gi&k=20&c=YMbVW4YNpAN_i2f53gJDd_T7AFr5rTyiPUEDGKi67xw=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>18</td>
+        <td>Iran</td>
+        <td>1,648,195 km²</td>
+        <td>Tehran</td>
+        <td><img src="https://worldbank.scene7.com/is/image/worldbankprod/Iran-Economic-Monitor-Spring-2024?wid=780&hei=439&qlt=85,0&resMode=sharp" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>19</td>
+        <td>Germany</td>
+        <td>357,022 km²</td>
+        <td>Berlin</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfFmdPPxgHIq4Vckw7F8zwKKo10dSn0RlnqQ&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>20</td>
+        <td>Thailand</td>
+        <td>513,120 km²</td>
+        <td>Bangkok</td>
+        <td><img src="https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>21</td>
+        <td>United Kingdom</td>
+        <td>243,610 km²</td>
+        <td>London</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhDzuGZ2mgmpeghRWJ6-Owqwb4tVcntA6PuQ&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>22</td>
+        <td>France</td>
+        <td>643,801 km²</td>
+        <td>Paris</td>
+        <td><img src="https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?cs=srgb&dl=pexels-pixabay-2363.jpg&fm=jpg"  width="100" height="100"></>
+     </tr>
+
+     <tr>
+        <td>23</td>
+        <td>Italy</td>
+        <td>301,340 km²</td>
+        <td>Rome</td>
+        <td><img src="https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>24</td>
+        <td>Tanzania</td>
+        <td>945,087 km²</td>
+        <td>Dodoma</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnrXuUZpdAfaMwI030BBnn8PU59vszg3qICw&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>25</td>
+        <td>South Africa</td>
+        <td>1,221,037 km²</td>
+        <td>Pretoria</td>
+        <td><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBDgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAECBQAGB//EADsQAAIBAwIFAQYDBwMFAQEAAAECAwAEERIhBRMxQVFhIjJxgZGhBhSxFSNCUsHh8DNi0VNygpLxFkP/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAKhEAAgIBBAEDAgcBAAAAAAAAAAECEQMSITFBExQiUQRhBTJxgZGhsRX/2gAMAwEAAhEDEQA/APLqlFVKuq0QJX0dnztFAm1TpogSp0UABK12mjaK7RQKgOmu00bRXaKBUC012ijaKkIaAoCEruXmjhPSrBPShOhONiwiq4jpgJU6KbdiUKAaKnRTHLqQlKytIAR1cRUwsdEEeKVlKIsIquI8UwEqwSlY6ALHVglHCVISpsaiB0VOijBKtppWVpF9FTooxWu0UrHQILVgtFC1YLRYwYWrBKIFqwSgCgXap00ULVtNNAC0V2ijaanTSoDyqpRAlGEdXVK2RFAQldopjRU8umFC2iu0UzyzXcugKYtortFMaK7R6VLYUA0V2imAlW0UrFQuEqwSjhKuI6QULiOriOmFj9KuI/SnY6FRHVuXTXK9KtyvSkIWVKIEo4j26VYR+lA6ABKkJij6KnQalspANNSFo3LNToqSqAhanTRtFTopMdC+ipC70xoqwjoChfRVglH5dWEdFiYALVglHEdWEdFiABKuEo4jogj9KLAW0Vbl0zy/Sp5dOwPKKtEVKuqUUR0KZppAhKkJTAjqwjqo5LE4i3LruXTgi9KkQ+lXZNCPLqeV6U/+XPipFuc9KQUIiI+KsIT4rRWCrLEM0rQaWZ4gPirrCfFPFUXqakNGO5+lOyWmKLB6UQQUczwrnqT22wK4zsqk5ApakNQkyn5Y+KsLVvH2pa54xDaIXuJlCjsBk1lzfjLMqR2VrLMGYLqkkCZJ8AA5+eKh5Eio4ZM9ALU46fQV35YjtTXBOJfnIJQ6KskTaWAbUD4I27/b1pj8zGXIaNTURzajSWBx7M3kHxXCA+K1ebbPtoKn0NFSBH6NScyHjaMb8ufFT+XPitz8l46V35P51PkQqMPkHxXcg+K2jZkdjVTanxR5BmPyT4qwhPitU2x8VH5c+KNdgkZghPiriL0rR5B8VItz4o1odGdyqsIj4rR/LnxVhb+lLypBTM8RHxV1iPitBYPSriD0qfKPxszxCaIIK0BB6VcQelT5Q8R4BFoyrS6yr5P0oyzp5x8qFkOt4WGCelEWP0oaSqxwGB+1HBwP75prKkT4G+iRGPgKh5YI86n6dcVg/iLjL2pa2tWLSYGtxjEfp6kj6fpg23F7x2A1CQdywP3q1lsl4UuT38c8Ei6lY4+FMxrG4yh6V4j9t3cS4aOMgbjqNqNZfiRGdhdxywJjIdDr38HG/wAxVrJZm8Ss9LdSICVyQaXkuVjQb715riP4kVmK2NvIzfzSkAH4Af1NIXN/dTyKzkBSuVCdP0qW3ZoqSpHrDeJrJY4UDzQWv4mUkSg/OvG3EtwIziU7gnr47UrBzNORL3JxmqJveqPe/m4kj1Ow0+c0nxTi8UCaUOtyM4XsPWvKNNK6gSyHOeimoCSOxWRtWTjr8alsq7KzXMk8pkkHvAkf3oaTuXUxtoPpsVq8sARPZcgDqPPzzXW9nLMUUAiEvpLdcH1/z+0SaHFO6Nn8Occvba8iEUfNEhVAHcjv02H33xXuZJ430yRsGjfdWBztXkbGCG0bRCYSyDTrE2Dk4J2K9NvNNXU8sUvLs99aF1Vd1J/56VhHJUqRtLH7bPT81dI3FQl9pbAevB//AKO7XUkqhWXbG5/pQP27cO2SdA9BkfXNdG7OdySPqdpxUjYkjf5VopxeNWAniyD0ZGr5Fbfie5jysgQ6dtzgmtW2/FxVQpgMsfcggYPzqJRH7Wj6cOKWDHDM0f8A3KaJ+ZsiNX5qLT/3V84g/FVm2RMkqEdcAEDwetPftuyCLIZvZP8AEVOajSNQie8RI5RmN1dfKnOa5okjGpyFXyxwDXgV47Zj3bkA+d1/UCobjto2Ea5WQDcKcmk4SBKJ9CFsPTHkHNWFsO1eEg45bogks7/lE9QrdPiK2bb8QXckSPFKJcDrjIb7b/aspKaNIxieiFsT2q35U+KxrT8UO5xLAhIOGCAg/r9sVo8y9eYT2c8XIk30z6iVGc9Mdd/IrlyZ3jfu2NoYVLgZFqfFEW19KYWdMDOM47URZY/5hWPrY/Jp6b7C623pV/yo8UxzU/mFTzU/nFT6uPyHgXwfPDJwoDHIcav5o/8APpVMcJlGpT33IXH61kyXukSSrYaFKBijgKXJ7hWIx8T9D1OBy/xDdTSxRXDRFVGmOOYRhh0GANzuOpwD171nCEpcyo9WcoRWys9hdy8CsY+bdXcSoV9jS+st8ADk/IV5PjH4ohn/AHPB7ZrdOhmn3YjwBk4+e/wrIfhPFJS8rwzSPlhIZG9oaTg5Lf8AJ6GkSARqHunvXfhxKO7lZ52bM3tVE62kf22GnVlt/eP+ZpiTJw0aBR41Ag47Unk6jpPQYJPb4eaXkusPoAZm8rtXbHdnDJtI0pWlZwSrbdj0IqOZJhzoHjG9Zn5ls7nA798fSmYbzYKcsTtk1ulRz6rZyuUYalbbYgdT6VZpJM5Pujr4pgzDRpYMzHzt9TSzscHZSTuTnpRqJprgh7j92QQAOx2qkcqquGBXyQvWiKFVNRyWHk52q7Qk6iYpF0H2tKZI+J6D51LmkWk+QPOTOWIyPdONseatzNbAcw4xu+4+xApdnXcInTvnJqE1dahyLjszQtraS5uVRGwXYKhA+QP3r2C8Os4bVLaGYMvXLpgOxyN/a6bH7ea8pwqIh+Y4LEdMCtlrjMgymo4BfX/Fjc79ulcuWVvY68SXYG/jhsHjkzFKpj0kAkMx6eeuDTMVsjxrIZoTga0DNgn4+10PcUG9ijnie3aIpIqnGf4D1B/rWVDMtvHJEykMp94tkEedqS3QNqLLccto3jF/b4PNY6o1Deye5wfhWdbKJGw2jLbEeBWlFdFshiNX8zefBoUtpC6kgGJ+5xkV0Qy0qZyZcab1REUiJlKEghcgk9/WtPhSI8rxmNGj0EN8+h/zwKWa1dUyFLr3dD/SrxOYl9g41DDEdetauVrYyiqe44pzaSQNDGpjAQsTufaJz9xv4+FLj/SMaj2wxJbyMdPsv3qUlySS27dceKrIq51xs+/XIqdzRtMFzWB0nIXwTvn1qwbQuTuOuB0+P60JgsnQg+MVwDIpyMjvV3sRW47BIQcA4zuR8KdF7MI+Us0oj/kDnT9Kxl1DdMkUdZQMA7Gk6fJdtDyyY6bY8U/ZcTuoJAy3Ewwc++cfrWMJRtvVubSnFTVMqE2uD2yfiS5nA0TmNse6OhrUsON81dNxOySj/ds3wr5yryMQqhi3YAb1p2T8TiU4g1p4lUA5x09ogiuHJ9Dikq0nXD6mS7PoQ4iP+tJ/7f2rv2kn/Xb6/wBq8zFKzhNRUMd2UE4U+Om9FJA6hf8A2xWP/OxfBfrJnk04pI6RPGr8pWwqSOFUAdtecH0H0FPrxERrHy5RJiHWQgDb505AHXcHfGOvQUtecUhuLxLe2ikkcFALYHXzGJGAD02yceNs79AJdqs8qGRVUasnJc8we9seh1Zzg/OopN7HXbjybz39ocDXGZYcJhdJZCPdJUbgEN1x+oJrf3LLaoJbeASIN+WxXLHAUYOAdgNhv8cVmyyIZMmF/YmEbtpJEZIyTlRlcZ7dNh0xXPb2sgnaW2EcxbWs7HCsRgMNzgn77etSkuUVJvgFccRvA4Q28dswUuOcQcLk5bPqTgZ2z8Ns08Plv2le4uIkZF1clUAz9wOx779s16CSa25ERt4B+XVdIMI1vHJlc9M+VJz2FTLhZA8wHN0BQ5wsUreCN9xqG/3rSOWSeyM54oy5Z5e44dAqsbZpS4wOVyyT2wDjcHO2464FAfmWrNDPC8cg2ZX9nHxHWtpru1hF09uxjuWQ8xmV9Q0gnOSOx0jcDqBttXnLt55nc3Eju8jamJHU9dXr8q68eSbe/BwZscIrbkl5Av8AKg7AbUMzqPdOceKEqlWKjL9skUSOJpHK4C7V0WcdOyoY9wB8T1p0Xc78O/Jl3aNiM8xumkkgD03+9UT8m7FC7IexEZOonz4oUofkmSERyRhtLNG2dJ8EHBHxxj1rOTtmkU0ikmEIVfeParQn2gp6A70BZYo9pNeDtp0/p4q3Mt9QMZYY3ZSPd8fGpYlzZ6W1ChUKb48d6tdyj+A47/D1rDiuXQry2JHjO9MLcO/vg5PkVzyTW7OpStDLXWs/vGIIOMg9P7ilZlLhsAALjSc+8PXxv+tFWJpX2JUYJyevy/vWnLDwaK2zJLdLKowU0DIx7xz7p8fKl5dI1j13uecaYRtuR7Rww7g06LqMMqalZT2zuKVkt+cGYRsGxltIypPnbpSjLNaPkrt5xkfWupaZo5qlF0b8ayBgYyCOwB2q3JRyWcYfPtdjn41T8NJPxq/a0WYRaYmkJVAzEDsBkZPzr0v/AOcto0V5+NWjI8rLEQ6AzBGCvpBfJOrIGARtuRWWpo20JnlZoSuSrkjPeqDOArHBJwM7frtXtOIfh3hbGWK1v545TxVrNOZHkf6YbSd/P8XyrNn/AAw1uHjurnltFq5z6MhWHJGnBPmY7+m/an5WCwo89yJSxVlwR15gwB/anLOGyeJhPPI0u4UIoIT1J1b9/G1aw4LFCsiJcsyROUkkeJQiEaDvqOADrUAk9dvFNR/hpGmEbXKmTmEJIFAQsHAwDnZsAtjPQH41nLLJm8cMTOs/2fDHzVWQam9kjDMR2GR0OMjoam8srK7KraEodTE5h6j137DajQcHtBGZYOJC4VI+YRHMCWXBY4IbpgHJGcdSKWkJQkG3JEXuhcNg9+ud/ltUKbvk00xqqEE4dMdWplI3wAc5Hw7UzYxxQMrXlo8pO4AbYd/dIz3pmK5t0kYlnD53yx9v459O1WlnibHLk2YksTt3zj1/vWizyRn4IPg1o7i3EeFiZR4GP0zVGuYU91XB+FJW6O0KMqKEA9k80YbwDjPcmukDjd+Wv/aftvW0crkjnniUXVj8d+F6a/pRv2gDuyyH5f3rHQHPvJ9BTAjLgbKP/GnrZOlGTwu+NzzhwzhrQpAv7y7RziFPkcFj2Pr6mg8P4jJJCw9mG0ZVDCNMdBkPpA2B9nHZvnTk5soHurSDmxKuXdFj0soVcsyd8gk7Y7g0eC2srQvcW1tGsIx7T4dQc4xhv4gcb9dWa81Pd6Ueo1w5PgBd3MXD5FvLoyQ5OjpkofeON++onbYaqzTxVgssVvLPbCZ/akIUiEnBwNRLYO/Xuafv7O44ncJFM8ztgphpGLEjGNz0wWb3vK1jnhNrEjc91Sd/9LU5IfPTpj6104oNL38nNlyavyrYk8SureD8pqFsAxkZAexAXJGSCMbacd80RLdrm+eXiF5GLQ6Q0ryBOY2fZ0gDfGTkHpk+RRYZ4IxBb3FmIirEGaQ7lwOmogj1wc+94xTFy1jaSBmkbRydMksYLK7HYdD7ONxg7EE5B2qnNraiYwTVtmbxC/tYrqOURpclYwqyMCBgDI6/LPTbNZMM2pJHZi0pONTdhvnHj/7XpbeOPjMAjBnlghVwkSswwcZyq50r0HpuOwpfiPCksbT8xJJKsQwAjka9x6HHXG1KGSMeeSckJydrgyLecvjSuvuOh7V3tpLlgyBsb9jS88Rju3RdJIG/LfI3Gc5qmZ7pmRUkcRAklR2+P1ro1JcnLpfQzfz6gQCTk9VG9CtruW26IjIVKPG3SRTvhv6HtQRDJ+X/ADCo3L6BsHTj40/wfhh4jc/lo2jU6S2/Q+lTPJCMW2zTFjnOaUUD4hYpFOJIRILeVEkjDZJGobjPfByM+hqtvwu5ullMEZbSurr4I/5+9et4XwlYFEUl4uoP7UDIrAr8+u/9qLe3lvwa8BbVpO8csWkEDfKEjcdsggbgY715r/EFJ6ce56r/AA3THXkdHlm4JeQQ/mJZIVxuq7DUDgZycYx6jfzRTdCS0aNSC8TA8z3icZ2+HU/KmGntVnNvcWD4L/xYJIPqNj1zV5raznhIhh/LSFSDnDaRkYPz7106tVWcDik2oicV3GUYyCIDSQy8v70JZDdlsMIwm2Omk9MZ7fOgPHLBIOfg74Daf6dq0YZcIBFJIoIzuMegx/StPalaM1FvkiO4GDJIsWEx7X8Y9en36igyTF4y0IEiOMnPbztTUtst5JFFYuzPhdPLy2MjuB9yBWpYfhlIbGW44nNHGuMh49tR9PO9ZTz48ats1x/T5MnCpGZ+EL27seJyScOs1umaB1dDKIsJtltZOF+JrRueN8de5u8820t7hzI9vbDMQxpUlWXYjZckHBJB71l8Pv4+HSSmKFZhNG0U0cwOiRD2OCD9DXpOE/i3icZxaQWccHLWPQsZblqpZhgauuXYf/Kfk7otY+rDxS/iIYub6zuby3lIuHgfC6yoXS7Ae0Mex4z080nDb8dv5prl3kijuppA2plVWkK8xh7X+2IH0C+u+xe/iHicsWgTWv7wFRGFkDEYXO4fP8C99t/NYa8e43wsrokiMAcshaIEoWWUEBz7X/8AVzuSc433IZXqHo07tBL08X4dAl1dxy8mVsCQvE6O7YIOBn/pqQSP4cjpRYvxDfvAsLIVk06i5ZiR7QbXp6a8jOr0pe8/ENzxKytbS6DFYsaDuD4Jznv32O4Hrnn5KCKKUPh1zgHIxjrkdT4zUGn3ZycduHkZbiULGfYQYXSB0ONvZGM9MbZ81dEItWyQsbLiIscHffYef65qxkhEroTpOjPMO2Mbj5jbf0qLkoQyuZTICA4VipcY2OM74xv8KNw2V7ln9qMHVG+pNByuSwHgeKVMkM03NiSTmpga+nTfGB8alo1m5XJuJGB2RtYyp9PToKKnPkmMhnZ9ROQe318Z61XQPnZExyMqnSj4bOvSp22Hft9f0ql2XtUjaFCVcsAXJ9kjH2O/0NEngt0R1fQW1KDjbzvj6f5tSs7LFatAzE5IIQ76cZ+mzfcUoyoJQtMtHO7gF4ypI3YNtTUTApqGTvjastmWZVKthx2z19RTFpImnc5AGOu1dad8HHRe240bljcSexJAD+WdMhpFxndSdz8B232wKDbCC8m/NWk625lAEiQzHYLsUHXMfQqT2IXbFeRgjeN1fSCUOe4B+n9K9ZbycJvpFuprqWwvRtJI8moPtg5J2Oe/muPNeFcWjuwNZ1TdMaY2/D4ZrVr8XU4bUY3KqzMSc+2wOo9B7WdjtjasM8ZZP3VoEnWMckCWPVq2/lB9phkjJ65HjfVvouF2p/M3Nzz1kyeWAkhlzkjscDtg593rSM34ijESrY8Nso440C/vl1EqDkYxjGD064ycdTRjzymvZFv+hZMEIP3TS/Tcy47pneRLrDzlHU6wRJk7ZbOemPG2e21UcS8OnlSLQ+CAJWCtpPfAORuDg7HI+FbVn+JLcvyrzhVo9u7AydW/8gD02GPhjfapveA20ztc8I4hCbU/wGTS0YO/2x/9o8/jn740Q8CyQvHK/wDTO4LcXqXzfkYnVJJBzGtnxpXBOM9NJPYjGQMAEU3PxK+kgNtdc3So94uZsuAdPvE9Seo3AzjfFTByLRWh4jLCFA9uKJ9gRgBgqg5c4xudzjI2rNnmubaaOcxzW6PGNLSP7ZXpnbb/ADpVX5OETXi5Y+mqNTDDFDHMVC5uE1pKW264297+lEs7bikRkhtIrhXxyy7J7qdwCd9h4ztWO15xJwZIbx1SUnSEfBdh6Lgj7DvVBcX1wDzbmVlBP+pOTk9d/NEoZPlDjkx9pnoHt+MTwpFcXcFtHCuEiLCIKOgwB02G2dxjG1Us7c2UpWfjlqrhtKqZcjPX5/HPz2rLSe3jJ1wQXa9FjdZAo23x7Q7k9aZfjwkeCGa2ggtVbeNY9QwPHQ467b52+eMseWSrovHlxQepLc9dHxDh5ETXEsU6c1YwzEuqHTnbIxkYztvvSP4l4VeuvIKQfkrdjIpRd8tsSfiD22+1eaPELcSzNw8IFjyVDRRkFv5sEbbY6b7fKmOD3k91LeWy3rrdT+3E5cAEj+HJOem3cVzekeKWuD/k619dHPHRk7+C0sF7cPCXE8kcQ082YkrgdBvt0A7U01nc6VQxOqg5DKunJ8HbpuKy24lxKyuJIxcaSGw6sAdR36+evSmYfxDdxKQLjDuf3hWNMt+n2rofl6o5o+BP3Watr+HjcxpKVEMG5Yvv33Pimmn4PYK0NrbRX2DvrOqMdcbEH615m44nLezCO4kkcgEAs5JGevp8iKAJDECdTbgEKB08jvt9qXgnJ3kf7Cl9TCCrHH9zfueP3jAi2KQoV9yGFcg/PPpWXLfTSSMJ7mSVidQaRiSx8Y80J7waeYIiXJ9r2eppV75J9PMVwVfI3ww/5+ddGPDGPRy5M8p8sfZIrhSrrhhvse9ZS3VzaTNyZGRsey4JBBz2xXNKXkypfLFjgnGPXb/NqiSaKTBkUeA2o10x2VHO5Po0rXi7Q28iFnEryCRmV9AbAIbJG+TkZ84HzYseNWy8s3dvzQjYVc7b/wAXq43wfl4NYLQAMMSquematGoxgkDb3lBwfX9d6Higy1myL7ntZXd+GrPAi3Nvr1NrUOQT7Kjud9skdAO1ZdnaQyNI14Eg0ykyyCMiQZIBUEjIGCTjfYHtmsLXKCIgzmInVhdt/NVZGOxnZiRg5OazjiaVWazzJu2j1cVjZyXhlhndsz/uYly24IAGHB3AxufGe1C4k9zaXVvGL9EdiAk8gyVGMA9eh8EeD13rz8N3fxDkpcyBMbKshAH+Zp3h/EXiudd5CLldOApAOnxjptv2xTUWuXYpZoNVVG7ccQubOzna7himTXsomAbIyMN7OduxBBztXW/EIZ5ZSI4TIqD96Ww4Gc+1uNWxxms6Tj0UdwoitohDFqSNRCEwpJJODkb9cYG+aAOIWas/LtpEWYkOV07DsBkdNjvgHepWNONlvPUtnseotrZeKQXc0Rc3NuA0TxXDmJwSW90bL7p227Zyd6pd3gFqBKqREyAcpZsLIQGBOejAfy4/iG9eXbilrzCzWbKrY1COZ4sn/wASPJPz+qq8Qkh5iwuyrIygFHxhRnbp69dunrtmsEm9zT1UUj0n7YS3a5DiSVlddDgFdRwc43x264OO2M1qRcVsJGDXF60mUGSFBIbuCRue25FeN4lxaS4mVLcyRwxsChce2MeSD67UvbcPubiMyQRDlg41EgLn0JrRReNJt0Q8iyPSo2Z63B2z7G+N+hqXmTbTIG9Adx8a9vY/h03lhJcnjPMluVBlhULISxIGnJYYYA9dt9vWmZPw+tzHJLcfiSQtFrX2o/4VYjOzZxgA/PbPWq1OzFwjWx4NdW+pBrY4zv181dYrnmkwKzEjdVXJNeub8I2CyY/asYCkqWaIYDBNRHv42IZds9O+axOP2A4NcRRW9zI4eNXYsoQqSD7OAT4qrJcTPjspWkA/KzamyCug4267nHkfWiSWUaOOe8MRycquZGHocHGfnQY7h/8AqD5jP3qxK43KufmAPoRRbewk4rgtptEbea6fPVViVdXpkscfHBoXOgXpahipzmeQyEem2kfUGuXSzFmTAG2+cffNRJp3I049QKlxYKa5Oe5n5ZQMFTukShFP/iu1VV5PeDqmdtz1oUms9M49KGEYblT86VD1XyPxXMan23kZh00gAfU5/SmPzq4wF+qdP0FZyZ7bfKiqmr2X2B2AJ70N0PkIZfbADBhnoFO3/FWlmkYqHhhJJxlotu2MfUf4aEsQwqvrIc4wu/jOPrTyRkOAsiui7e0MYC+RjtgUt6FQKJ5VLErEMjS3sYyPl8B/mKYS3spQMxCOQnJwxAPw/vtRHiST96qaV74OwGfX4/eoETDBwAcdd9/+Nv8AO1c8m0zRfcsOEwRyM0vMcLjIzj6n+1FexgMgJa4EeC2kSf2qzTmQ61XLnYgHGs+Rn/D8a4XQcKGChgMsun/DUXLkvbpC7cPgCMGuXEg3QJGoA8Dc/Co/Z9pFGJTNNzFbJ5MKkY6DqR2+NPyIsqd/AycilZYXR9QZhtjA7+lUpL5oL+39FBw+yuWxbXyL/suo9B7/AMWCDufpS0PA715CiorYOomKQNt/WmJGcrlyOuNj9O3pQ42d4mZRnJPTb7irjrXEv5ByxvmAOTgnEsqyxuB7uGwP61rcM4Isbhr+WIuMZicj2hvsHB2PTrtvWPPEWO/MIbbDOT09KmC2Ue0TpP8AvGx2+IpTWSSrUioZMUJWoG3ccF1ROyWzRpnZxc6gv1G/fv0paTgSxxm4eaSaAJqcwKCwO+e+MUtzbiEDlSlCB0DH9KiTi3EnjdTOqcyNo2KxJup2ODpz5rCMc62jLY6Xn+mlvKG4klykMys0avGG9xzkfbH0qFnjkzmBh7O2G2HruDmlmg1SFmY5JJPtd/pRkVF/jPzr0Nqvs85yd0uBxI4JpWKM0YLHSHXOkfEHf6VaXhw5gVZY3TCnURgZO3fHSl+YFGzj4CrJdAbFgR8azc5LdMEl2jryykt3xFMJU23NIyzBWCM4BHgZHnFPzSRTJp5hT194Un+zn1Fo5lfJ7fbINaQy6luyZQV8DdjDZzKJLi5YL3jiT2yM7jJ2H36UTiF012sca4jt4RpjjUbKPnnc0oYnA0ypp/3Af5/nilnDJsX9KnSnLVZossox0x2X+lpJJNf+ox+Jq8cjuiku2c+aiuq3wZ9kF5A20jfWpVOYqa2Y5NdXUdAXWNUBIA28gVVnKyFR7p7dP0rq6khFggOQSeme1FjtI2DsS5KqD1qK6mJclnxE7oiKF3G4zUF9ceSo3XPeurqzZp0UCjPxq80SAvjIwfNdXUuhk2gDzmN1DLHkqOhyQu+RvTLW4hupArudCE7nrsetdXU5BEvaKGtGuG3k/wBLfxt9xV2do5dugOw7DJA6fOurqwydFRDiNXikYjdD9d+9UuMtEJGOcdAdwOnTv3rq6pXBZSeP8uqzRMwLnGM7CjRyOqkhjtj71FdRIOyWRJF9tFJON8UBogpcKzLj+U4zXV1TEHyEiGqEMSc4FBiGo43GfB6b9q6upoTBOxVmj64OMnr/AMVSaNdLnG9dXVcSGJzDW8h6Y8fClDk5Oo11dW8TNl0jVsg5O+OtV5ShyMnb1qK6tESMxwoApAOfOaNE7FlBOds11dWMvzM0iAnmkjmDKx3OCD0we1QyhmOrf411dVDZ/9k=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>26</td>
+        <td>Myanmar</td>
+        <td>676,578 km²</td>
+        <td>Naypyidaw</td>
+        <td><img src="https://lp-cms-production.imgix.net/2019-06/GettyImages-504376689_super.jpg?fit=crop&ar=1%3A1&w=1200&auto=format&q=75" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>27</td>
+        <td>Kenya</td>
+        <td>580,367 km²</td>
+        <td>Nairobi</td>
+        <td><img src="https://media.istockphoto.com/id/1293723010/photo/sunset-and-sunrise-in-tsavo-east-tsavo-west-and-amboseli-national-park.jpg?s=612x612&w=0&k=20&c=DufQ6dlUURcLAicnhZyTnYZ7WRJBiZvyECRstWFNRKo=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>28</td>
+        <td>South Korea</td>
+        <td>100,210 km²</td>
+        <td>Seoul</td>
+        <td><img src="https://media.istockphoto.com/id/521707831/photo/seoul-south-korea-skyline.jpg?s=612x612&w=0&k=20&c=Zlxokjq-Yf_lkGDDReM4SlOXvCebTpFBxZ6b2-MknW8=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>29</td>
+        <td>Colombia</td>
+        <td>1,141,748 km²</td>
+        <td>Bogotá</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpcrZ8UETEjc094qzYd3Cq-oVOPwVnQuE7yw&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>30</td>
+        <td>Spain</td>
+        <td>505,990 km²</td>
+        <td>Madrid</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSynfhSvwJ1ZwGoYpQtnAfGO2FxkwXzo832w&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>31</td>
+        <td>Argentina</td>
+        <td>2,780,400 km²</td>
+        <td>Buenos Aires</td>
+        <td><img src="https://i.ytimg.com/vi/OnrJkX4LDBs/maxresdefault.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>32</td>
+        <td>Ukraine</td>
+        <td>603,550 km²</td>
+        <td>Kyiv</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPr8OYACJeTBR9eMaO0VzP9Ts8uNUWT8Jp4A&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>33</td>
+        <td>Algeria</td>
+        <td>2,381,741 km²</td>
+        <td>Algiers</td>
+        <td><img src="https://media.gettyimages.com/id/904288674/photo/manila-makati-at-twilight.jpg?s=612x612&w=gi&k=20&c=3aB05CPdXCGRTT6WCKpoScS3MVHwS9x00vCmxvIEROw=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>34</td>
+        <td>Poland</td>
+        <td>312,696 km²</td>
+        <td>Warsaw</td>
+        <td><img src="https://t3.ftcdn.net/jpg/07/07/33/10/360_F_707331050_7I8TFUutOhRhJQvRfKylyl4x2YS21VAb.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>35</td>
+        <td>Iraq</td>
+        <td>438,317 km²</td>
+        <td>Baghdad</td>
+        <td><img src="https://images.unsplash.com/photo-1608925086961-dbcd276a0e71?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXJhcXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000" width="100" height="100"></td>
+     </tr>
+
+
+     <tr>
+        <td>36</td>
+        <td>Canada</td>
+        <td>9,984,670 km²</td>
+        <td>Ottawa</td>
+        <td><img src="https://www.planetware.com/wpimages/2019/11/canada-in-pictures-beautiful-places-to-photograph-yoho-national-park-emerald-lake.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>37</td>
+        <td>Morocco</td>
+        <td>446,550 km²</td>
+        <td>Rabat</td>
+        <td><img src="https://www.planetware.com/wpimages/2020/02/morocco-in-pictures-beautiful-places-to-photograph-rabat.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>38</td>
+        <td>Saudi Arabia</td>
+        <td>2,149,690 km²</td>
+        <td>Riyadh</td>
+        <td><img src="https://media.istockphoto.com/id/1293325404/photo/buildings-landmarks.jpg?s=612x612&w=0&k=20&c=xrpZQM_eRsXaJMQbZ-FgdJfhqJLMUlqceVHnbtcj5vE=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>39</td>
+        <td>Uzbekistan</td>
+        <td>447,400 km²</td>
+        <td>Tashkent</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQREd1tydczElHWyAFl7rIoDL3C5uD-A0RpAw&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>40</td>
+        <td>Peru</td>
+        <td>1,285,216 km²</td>
+        <td>Lima</td>
+        <td><img src="https://www.shutterstock.com/image-photo/lake-piru-reservoir-located-los-260nw-1280654350.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>41</td>
+        <td>Angola</td>
+        <td>1,246,700 km²</td>
+        <td>Luanda</td>
+        <td><img src="https://media.istockphoto.com/id/875150736/photo/luanda-city-seaside-from-sky.jpg?s=612x612&w=0&k=20&c=-osNpQ03JPG5jmaIjRJxY1uwOQxI0ZvQBsIxtEX6v5M=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>42</td>
+        <td>Malaysia</td>
+        <td>330,803 km²</td>
+        <td>Kuala Lumpur</td>
+        <td><img src="https://media.istockphoto.com/id/466842820/photo/petronas-towers.jpg?s=612x612&w=0&k=20&c=X_Kl-W_ulJEzjvaaT8gRNTQWHboyLKaedXol5EPhGdI=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>43</td>
+        <td>Ghana</td>
+        <td>238,533 km²</td>
+        <td>Accra</td>
+        <td><img src="https://t4.ftcdn.net/jpg/03/41/27/45/360_F_341274506_Ole4lgpQxgidB4wBLoFTjoPZvi7E5cyK.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>44</td>
+        <td>Yemen</td>
+        <td>527,968 km²</td>
+        <td>Sana'a</td>
+        <td><img src="https://www.shutterstock.com/image-photo/aerial-view-yemeni-landscape-jabal-600nw-2209034879.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>45</td>
+        <td>Nepal</td>
+        <td>147,516 km²</td>
+        <td>Kathmandu</td>
+        <td><img src="https://media.gettyimages.com/id/1439040510/photo/gumba-on-lap-of-mount-manaslu-nepal-gorkha-nepal.jpg?s=612x612&w=gi&k=20&c=2SxYAvFgpkjqXmj31sK92vsk0eFKOh8qos9LiAkRdHg=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>46</td>
+        <td>Venezuela</td>
+        <td>916,445 km²</td>
+        <td>Caracas</td>
+        <td><img src="https://thumbs.dreamstime.com/b/angel-falls-canaima-national-park-gran-sabana-venezuela-meaning-waterfall-deepest-place-parakup%C3%A1-ven%C3%A1-meaning-x-69321036.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>47</td>
+        <td>Madagascar</td>
+        <td>587,041 km²</td>
+        <td>Antananarivo</td>
+        <td><img src="https://t4.ftcdn.net/jpg/02/56/06/33/360_F_256063382_dwAxFEFbpmBRXcv3S9uTH0QycY5solAI.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>48</td>
+        <td>Cameroon</td>
+        <td>475,442 km²</td>
+        <td>Yaoundé</td>
+        <td><img src="https://www.shutterstock.com/image-photo/yaounde-cameroon-june-6-2022-600nw-2435534355.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>49</td>
+        <td>Côte d'Ivoire</td>
+        <td>322,463 km²</td>
+        <td>Yamoussoukro</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzmSqu3sRuKKJYjkUhKiir7iY2Xz1YDH2Mg&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>50</td>
+        <td>North Korea</td>
+        <td>120,538 km²</td>
+        <td>Pyongyang</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE5k5xhWZUq-K-LBS5jndl4a08Fek5xuLJaQ&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+            <td>51</td>
+            <td>Australia</td>
+            <td>7,692,024 km²</td>
+            <td>Canberra</td>
+            <td><img src="https://www.planetware.com/photos-large/AUS/australia-beautiful-places-sydney-harbour.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>52</td>
+        <td>Tunisia</td>
+        <td>163,610 km²</td>
+        <td>Tunis</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnrXuUZpdAfaMwI030BBnn8PU59vszg3qICw&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>53</td>
+        <td>Sri Lanka</td>
+        <td>65,610 km²</td>
+        <td>Sri Jayawardenepura Kotte</td>
+        <td><img src="https://media.gettyimages.com/id/1402466889/photo/aerial-view-of-mirissa-sri-lanka.jpg?s=612x612&w=gi&k=20&c=0qqDKVpvgOztBZO3klosAIQIu1g56O6gG6DzLJ316_M=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>54</td>
+        <td>Burkina Faso</td>
+        <td>272,967 km²</td>
+        <td>Ouagadougou</td>
+        <td><img src="https://www.shutterstock.com/image-photo/burkina-faso-national-flag-mast-600nw-2631464889.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>55</td>
+        <td>Mali</td>
+        <td>1,240,192 km²</td>
+        <td>Bamako</td>
+        <td><img src="https://media.istockphoto.com/id/493888147/photo/bamako-in-mali.jpg?s=612x612&w=0&k=20&c=B2Lq3Sv5ZSXrj1QuIOfOj78rrXLbcf7NJuah7iz9vhM=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>56</td>
+        <td>Romania</td>
+        <td>238,397 km²</td>
+        <td>Bucharest</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSynfhSvwJ1ZwGoYpQtnAfGO2FxkwXzo832w&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>57</td>
+        <td>Syria</td>
+        <td>185,180 km²</td>
+        <td>Damascus</td>
+        <td><img src="https://media.istockphoto.com/id/1464998966/photo/beautiful-nile-scenery-with-sailboat-in-the-nile-on-the-way-to-pyramids-aswan-egypt.jpg?s=612x612&w=0&k=20&c=0tkAT1gmoFt_2QqSk4LqPzTb-b7T00921ddR5KzUcIg=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>58</td>
+        <td>Chile</td>
+        <td>756,102 km²</td>
+        <td>Santiago</td>
+        <td><img src="https://www.planetware.com/wpimages/2020/02/chile-in-pictures-beautiful-places-to-photograph-torres-del-paine-national-park.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>59</td>
+        <td>Kazakhstan</td>
+        <td>2,724,900 km²</td>
+        <td>Nur-Sultan</td>
+        <td><img src="https://lp-cms-production.imgix.net/2023-03/kazakhstan-GettyImages-961506872-rfc.jpeg?auto=format,compress&q=72&w=1095&fit=crop&crop=faces,edges" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>60</td>
+        <td>Guatemala</td>
+        <td>108,889 km²</td>
+        <td>Guatemala City</td>
+        <td><img src="https://media.istockphoto.com/id/870585478/photo/beautiful-bay-of-lake-atitlan-with-view-to-volcano-san-pedro-in-highlands-of-guatemala-central.jpg?s=612x612&w=0&k=20&c=klDldbA7jxzGRB8ArvFuFiCNnky_DFl4XGH9YlbdZ9E=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>61</td>
+        <td>Zambia</td>
+        <td>752,612 km²</td>
+        <td>Lusaka</td>
+        <td><img src="https://media.istockphoto.com/id/1081365424/photo/aerial-view-of-famous-victoria-falls-zimbabwe-and-zambia.jpg?s=612x612&w=0&k=20&c=-w7lj9taR2qyenSo_zjNQCacXZkXmKKhg0u7LjKpZqQ=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>62</td>
+        <td>Ecuador</td>
+        <td>283,561 km²</td>
+        <td>Quito</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTW99_7MseznQa1f4c_riElzSbosg09lDkQ&s" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>63</td>
+        <td>Netherlands</td>
+        <td>41,543 km²</td>
+        <td>Amsterdam</td>
+        <td><img src="https://media.istockphoto.com/id/1143539287/photo/channel-in-amsterdam-netherlands-houses-river-amstel.jpg?s=612x612&w=0&k=20&c=tYhG0NPq1eCGP3JgwFrphJK2VQ9mVHmEHZXUudzNCGE=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>64</td>
+        <td>Senegal</td>
+        <td>196,722 km²</td>
+        <td>Dakar</td>
+        <td><img src="https://media.gettyimages.com/id/512970017/photo/fishing-boats-on-place-ngor-dakar-senegal.jpg?s=612x612&w=gi&k=20&c=j58J8I1Q85hE39Qw3TzS6VAm3sXyoKLfvBqn6mLhsXE=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>65</td>
+        <td>Cambodia</td>
+        <td>181,035 km²</td>
+        <td>Phnom Penh</td>
+        <td><img src="https://www.planetware.com/wpimages/2020/02/morocco-in-pictures-beautiful-places-to-photograph-rabat.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>66</td>
+        <td>Chad</td>
+        <td>1,284,000 km²</td>
+        <td>N'Djamena</td>
+        <td><img src="https://media.istockphoto.com/id/969015394/photo/anoa-oasis-borkou-region-chad.jpg?s=612x612&w=0&k=20&c=pJunxJTqAgD-ucxyWR9nmCPG53Kup-jpE_dNvWXAI-M=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>67</td>
+        <td>Somalia</td>
+        <td>637,657 km²</td>
+        <td>Mogadishu</td>
+        <td><img src="https://www.shutterstock.com/image-photo/km4-mogadishu-somalia-center-commerce-260nw-2486906249.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>68</td>
+        <td>Zimbabwe</td>
+        <td>390,757 km²</td>
+        <td>Harare</td>
+        <td><img src="https://media.gettyimages.com/id/1293092491/photo/harare-zimbabwe.jpg?s=612x612&w=gi&k=20&c=qzgxngIphWtKYTUgEoZHyyWK6B0xD0yOtFY8bsIx7wY=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>69</td>
+        <td>Guinea</td>
+        <td>245,857 km²</td>
+        <td>Conakry</td>
+        <td><img src="https://media.istockphoto.com/id/2164204603/photo/low-angle-view-of-saala-waterfall-in-forest-against-sky-guinea-west-africa.jpg?s=612x612&w=0&k=20&c=VA-JWHv2Sqg_780v1R2Kipzx44Th8TXw4DbolyMPhNI=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>70</td>
+        <td>Rwanda</td>
+        <td>26,338 km²</td>
+        <td>Kigali</td>
+        <td><img src="https://lp-cms-production.imgix.net/2023-03/GettyImages-1139556558.jpg?sharp=10&vib=20&w=1200&w=600&h=400" alt="Rwanda" width="100" height="100"></td>
+        
+        
+     </tr>
+
+     <tr>
+        <td>71</td>
+        <td>Bulgaria</td>
+        <td>110,994 km²</td>
+        <td>Sofia</td>
+        <td><img src="https://t3.ftcdn.net/jpg/07/07/33/10/360_F_707331050_7I8TFUutOhRhJQvRfKylyl4x2YS21VAb.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>72</td>
+        <td>Libya</td>
+        <td>1,759,541 km²</td>
+        <td>Tripoli</td>
+        <td><img src="https://t4.ftcdn.net/jpg/03/95/09/83/360_F_395098319_l5T6E3fWPCjumbHVH642nNUcFwCBgMCH.jpg" alt="Libya" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>73</td>
+        <td>Laos</td>
+        <td>236,800 km²</td>
+        <td>Vientiane</td>
+        <td><img src="https://www.shutterstock.com/image-photo/wat-xieng-thong-golden-city-260nw-2191862605.jpg" alt="Laos" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>74</td>
+        <td>Paraguay</td>
+        <td>406,752 km²</td>
+        <td>Asunción</td>
+        <td><img src="https://www.shutterstock.com/image-photo/presidential-palace-lopez-asuncion-paraguay-260nw-2321922153.jpg" alt="Paraguay" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>75</td>
+        <td>El Salvador</td>
+        <td>21,041 km²</td>
+        <td>San Salvador</td>
+        <td><img src="https://t3.ftcdn.net/jpg/03/23/88/58/360_F_323885801_X3H23JtjZCkRx7CTHp1Jwv1mduknCzFZ.jpg" alt="El Salvador" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>76</td>
+        <td>Nicaragua</td>
+        <td>130,373 km²</td>
+        <td>Managua</td>
+        <td><img src="https://images.pexels.com/photos/3470478/pexels-photo-3470478.jpeg?cs=srgb&dl=pexels-fabianwiktor-3470478.jpg&fm=jpg" alt="Nicaragua" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>77</td>
+        <td>Tajikistan</td>
+        <td>143,100 km²</td>
+        <td>Dushanbe</td>
+        <td><img src="https://images.unsplash.com/photo-1608925086961-dbcd276a0e71?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXJhcXxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>78</td>
+        <td>Greece</td>
+        <td>131,957 km²</td>
+        <td>Athens</td>
+        <td><img src="https://plus.unsplash.com/premium_photo-1661964149725-fbf14eabd38c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZWNlfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000" alt="Greece" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>79</td>
+        <td>Benin</td>
+        <td>114,763 km²</td>
+        <td>Porto-Novo</td>
+        <td><img src="https://images.unsplash.com/photo-1600241005059-71de13374958?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVuaW58ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000" alt="Benin" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>80</td>
+        <td>Haiti</td>
+        <td>27,750 km²</td>
+        <td>Port-au-Prince</td>
+        <td><img src="https://media.istockphoto.com/id/880914536/photo/digital-art-housing-stacked-up-a-hillside-in-port-au-prince-haiti.jpg?s=612x612&w=0&k=20&c=uMr4-ROaZoM8TrNoquTfw_zeNmzfcz4_13tmbCw9ldc=" alt="Haiti" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>81</td>
+        <td>Cuba</td>
+        <td>109,884 km²</td>
+        <td>Havana</td>
+        <td><img src="https://www.planetware.com/wpimages/2019/11/canada-in-pictures-beautiful-places-to-photograph-yoho-national-park-emerald-lake.jpg" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>82</td>
+        <td>Portugal</td>
+        <td>92,090 km²</td>
+        <td>Lisbon</td>
+        <td><img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2024/07/18163215/Baku-city-1-1600x900.jpg" alt="Portugal" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>83</td>
+        <td>Azerbaijan</td>
+        <td>86,600 km²</td>
+        <td>Baku</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPdnoVSlpNCidlAonJneLm6jvjMt2aqHu7bQ&s" alt="Azerbaijan" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>84</td>
+        <td>Sweden</td>
+        <td>450,295 km²</td>
+        <td>Stockholm</td>
+        <td><img src="https://www.shutterstock.com/image-photo/stockholm-old-town-gamla-stan-260nw-1568592469.jpg" alt="Sweden" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>85</td>
+        <td>Hungary</td>
+        <td>93,028 km²</td>
+        <td>Budapest</td>
+        <td><img src="https://hipa.hu/uploads/news/6/3/a/0/63a0ad4e15cf1293658943.jpeg" alt="Hungary" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>86</td>
+        <td>Belarus</td>
+        <td>207,600 km²</td>
+        <td>Minsk</td>
+        <td><img src="https://www.shutterstock.com/image-photo/aerial-view-nemiga-minsk-belarus-600nw-1282455937.jpg" alt="Belarus" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>87</td>
+        <td>Austria</td>
+        <td>83,879 km²</td>
+        <td>Vienna</td>
+        <td><img src="https://media.gettyimages.com/id/1181522312/photo/hallstatt-in-winter.jpg?s=612x612&w=gi&k=20&c=RRJVObXqm-2dLDhOfXOqfetfwvm2osbUhIjbuzMVb3Y=" alt="Austria" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>88</td>
+        <td>Switzerland</td>
+        <td>41,290 km²</td>
+        <td>Bern</td>
+        <td><img src="https://media.istockphoto.com/id/1815540289/photo/aerial-view-of-train-passing-through-famous-mountain-in-filisur-switzerland-landwasser.jpg?s=612x612&w=0&k=20&c=eA1I9wkRED8W9fGMHplAMKiBq2QGnIvPsp-3JiS6uNI=" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>89</td> 
+        <td>Israel</td>
+        <td>20,770 km²</td>
+        <td>Jerusalem</td>
+        <td><img src="https://www.planetware.com/wpimages/2019/12/israel-in-pictures-beautiful-places-to-photograph-jerusalem.jpg" alt="Israel" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>90</td>
+        <td>Togo</td>
+        <td>57,000 km²</td>
+        <td>Lomé</td>
+        <td><img src="https://media.gettyimages.com/id/1176896935/photo/lom%C3%A9-togo-independence-square-the-center-of-the-country-palais-de-congr%C3%A9s-on-the-top-right.jpg?s=612x612&w=gi&k=20&c=bPuIAYCHv1KKprQOaURaEkJr78W_9uZdvn-b2jiabZo=" alt="Togo" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>91</td>
+        <td>Sierra Leone</td>
+        <td>71,740 km²</td>
+        <td>Freetown</td>
+        <td><img src="https://media.istockphoto.com/id/642172632/photo/freetown.jpg?s=612x612&w=0&k=20&c=EN44Rbe7wVokPttxKtVL1L7RrqX6u-q39TlcqDHAxJo=" alt="Sierra Leone" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>92</td>
+        <td>Denmark</td>
+        <td>42,933 km²</td>
+        <td>Copenhagen</td>
+        <td><img src="https://media.istockphoto.com/id/587892190/photo/copenhagen-denmark-at-nyhavn-canal.jpg?s=612x612&w=0&k=20&c=36euZjYvsTQnIYVcTUhErkGLU564g9fnctOAEzVUlIg=" alt="Denmark" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>93</td>
+        <td>Finland</td>
+        <td>338,145 km²</td>
+        <td>Helsinki</td>
+        <td><img src="https://media.istockphoto.com/id/1314930800/photo/the-modern-neighborhood-jatkasaari-of-helsinki-finland.jpg?s=612x612&w=0&k=20&c=nPOQa-M20F6QGJNjYNIKE31Pm7tgMvNmSOOOuiBOLeM=" alt="Finland" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>94</td>
+        <td>Slovakia</td>
+        <td>49,035 km²</td>
+        <td>Bratislava</td>
+        <td><img src="https://media.gettyimages.com/id/1560452755/photo/aerial-view-of-old-town-levoca-small-medieval-town-in-slovakia.jpg?s=612x612&w=gi&k=20&c=waZNcxtDjxjeehgP_AUNBrCS0rN-zRsazZyf8Eu1m_g=" alt="Slovakia" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>95</td>
+        <td>Norway</td>
+        <td>385,207 km²</td>
+        <td>Oslo</td>
+        <td><img src="https://media.gettyimages.com/id/923527476/photo/bj%C3%B8rvika-barcode-modern-buildings-in-oslo-at-night-norwey.jpg?s=612x612&w=gi&k=20&c=mEWr_pEHnW1bg_C5yHmzKLiFpJRVd6QTXZ6qeMq8sOA=" alt="Norway" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>96</td>
+        <td>Sierra Leone</td>
+        <td>56,594 km²</td>
+        <td>Zagreb</td>
+        <td><img src="https://www.shutterstock.com/image-photo/freetown-harbour-sierra-leone-260nw-580538959.jpg" alt="Croatia" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>97</td>
+        <td>moldova</td>
+        <td>33,846 km²</td>
+        <td>Chișinău</td>
+        <td><img src="https://media.gettyimages.com/id/1222963543/photo/moldova-chisinau-cityscape-illuminated-at-dusk.jpg?s=612x612&w=gi&k=20&c=KQj5Pdv-kCYqJLntDIBB-eq5JsdvDA9UfUXnKuDp4p0=" alt="Moldova" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>98</td>
+        <td>New Zealand</td>
+        <td>268,021 km²</td>
+        <td>Wellington</td>
+        <td><img src="https://images.unsplash.com/photo-1600208669687-f19af3638cb9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV3JTIwemVhbGFuZCUyMGNpdHl8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000" alt="New Zealand" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>99</td>
+        <td>Monaco</td>
+        <td>2.02 km²</td>
+        <td>Monaco</td>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRxaEZx6JarX2CABP2EiUfgi_IK_NCnYoOJw&s" alt="Monaco" width="100" height="100"></td>
+     </tr>
+
+     <tr>
+        <td>100</td>
+        <td>Liechtenstein</td>
+        <td>160 km²</td>
+        <td>Vaduz</td>
+        <td><img src="https://cdn.pixabay.com/photo/2020/10/28/11/08/castle-5693094_1280.jpg" alt="Liechtenstein" width="100" height="100"></td>
+     </tr>
+     
+    </table>
+</body>
+</html>
